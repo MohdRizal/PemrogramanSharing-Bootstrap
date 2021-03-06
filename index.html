@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+        <title>Hello, world!</title>
+
+        <!-- smooth scroll -->
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
+    </head>
+    <!-- 
+        === Bootstrap ScrollSpy ===
+        Mengganti class Active pada navbar sesuai posisi pada screen
+     -->
+    <body data-spy="scroll" data-target="#navbar-example">
+        <!-- Navbar website -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary sticky-top" id="navbar-example">
+            <div class="container">
+                <a class="navbar-brand" href="#">Tips Ngoding</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#about">Tentang Kami</a>
+                    <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-item nav-link" href="#kontak">Kontak</a>
+                </div>
+                </div>
+            </div>            
+        </nav>
+        <!-- End of navbar -->
+
+        <!-- Jumbotron -->
+        <section>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container text-center">
+                    <img src="logo.png" class="rounded-circle border border-primary" width="300" alt="">
+                    <h1 class="display-3">Tips Ngoding</h1>
+                    <p class="lead">Selamat datang di situs web Tips Ngoding</p>
+                </div>
+            </div>
+        </section>
+        <!-- End of jumbotron -->
+
+        <!-- About -->
+        <section id="about">
+            <!-- 
+                margin-top: 5, padding-top: 5, 
+                cek selengkapnya: https://getbootstrap.com/docs/4.6/utilities/spacing/ 
+            -->
+            <!-- 
+                container -> row -> col (grid system)
+                cek selengkapnya: https://getbootstrap.com/docs/4.6/layout/grid/
+             -->
+            <div class="container mt-5 pt-5">
+                <div class="row text-center mb-5">
+                    <div class="col">
+                        <h1 class="display-4">Tentang Kami</h1>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col">
+                        <img src="logo.png" class="rounded-circle border border-primary mx-auto d-block" width="300" alt="">
+                    </div>
+                    <div class="col">
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, autem nesciunt similique obcaecati voluptatem recusandae deserunt esse quae officiis non, doloribus incidunt ipsam quod distinctio, facere a amet perspiciatis id?</p>
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, autem nesciunt similique obcaecati voluptatem recusandae deserunt esse quae officiis non, doloribus incidunt ipsam quod distinctio, facere a amet perspiciatis id?</p>
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, autem nesciunt similique obcaecati voluptatem recusandae deserunt esse quae officiis non, doloribus incidunt ipsam quod distinctio, facere a amet perspiciatis id?</p>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <!-- End of about -->
+
+        <!-- Portfolio -->
+        <section id="portfolio">
+            <div class="container  mt-5 pt-5" id="portfolio">
+                <div class="row text-center mb-5">
+                    <div class="col">
+                        <h1 class="display-4">Portfolio</h1>
+                    </div>
+                </div>
+    
+                <div class="row mb-3">
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="logo.png" alt="Card image cap">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="logo.png" alt="Card image cap">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="logo.png" alt="Card image cap">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of row 1 -->
+                <div class="row mb-3">
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="logo.png" alt="Card image cap">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="logo.png" alt="Card image cap">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="logo.png" alt="Card image cap">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of row 2 -->
+            </div>
+        </section>        
+        <!-- End of portfolio -->
+
+        <!-- Contact us -->
+        <section id="kontak">
+            <div class="container mb-5 mt-5 pt-5" id="kontak">
+                <div class="row text-center mb-5">
+                    <div class="col">
+                        <h1 class="display-4">Hubungi Kami</h1>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-md-6 mx-auto">
+                        <form>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Alamat Email</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Nama</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Pesan</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>      
+        <br><br>
+        <!-- End of contact us -->
+
+        <!-- Navbar footer -->
+        <nav class="navbar fixed-bottom navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">&copy; 2021 Tips Ngoding</a>
+            </div>           
+        </nav>
+        <!-- End of navbar footer -->
+  
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        
+        <!-- Option 2: Separate Popper and Bootstrap JS 
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+        -->
+    </body>
+</html>
